@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+:root {
+    --main-bg-color: rgb(221, 127, 127);
+    --font1 :'Oswald', sans-serif;
+    --font2 :'Lobster', cursive;;
+
+}
+
+
+.navitation {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font2);
+}
+
+.nav-left {
+    font-size: 25px;
+    display: flex;
+}
+
+
+.nav-left ul{
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    margin-left: 50px;
+}
+
+.nav-left ul a{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.nav-left p a{
+    text-decoration: none;
+}
+
+.nav-right {
+    font-size: 14px;
+}
+
+.nav-right input{
+    font-size: 14px;
+    /* border: 2px solid chartreuse; */
+}
+
+.content {
+    
+    height: 200px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin-left: 100px;
+
+}
+
+/* .content img{
+    height: 150px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border: 2px solid rgb(14, 10, 10);
+    border-radius: 90px;
+} */
+
+.content-left h3{
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.btn {
+    
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover{
+    color: wheat;
+    background-color: yellowgreen;
+}
+
+.home-articals {
+    /* height: 500px; */
+    width: 1050px;
+    /* display: flex; */
+    margin: auto;
+    background-color: rgb(224, 208, 240);
+}
+
+.home-artical{
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.cotact input{
+    width: 400px;
+    height: 20px;
+}
+
+
+
+/* .home-artical p{
+    margin: 20px;
+}
+
+.home-artical h3{
+    margin: 20px;
+}
+
+.home-artical a{
+    text-decoration: none;
+    color: black;
+} */
+
+
+.link {
+    display: flex;
+    flex-direction: column;
+    margin-left:250px ;
+}
+
+
+
+.link a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 2px solid brown;
+    margin-right: 850px;
+    border-radius: 30px;
+}
+
+.link a:hover {
+    background-color: rgb(148, 153, 230);
+    font-size: 30px;
+}
+.link a{
+    font-size: 20px;
+}
+.footer {
+    height: auto;
+    width: -1em;
+    background-color: chartreuse;
+    text-align: center;
+}

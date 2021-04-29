@@ -1,0 +1,29 @@
+@media screen and (max-width: 1200px) {
+    .navitation {
+        flex-direction: column;
+        /* margin-top: auto; */
+        /* height: 40px; */
+        /* background-color: aquamarine; */
+        /* display: flex; */
+        margin-bottom: 25px;
+        margin-right: inherit;
+    }
+
+
+    * {
+        margin: 0%;
+    }
+    .content img {
+        display: none;
+    }
+
+    .nav-left ul{
+        display: flex;
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    .nav-left {
+        display: flex;
+        flex-direction: column;
+    }
+}
