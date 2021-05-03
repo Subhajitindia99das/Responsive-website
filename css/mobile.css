@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+.navleft {
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navright {
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+}
+.backgraund {
+    margin: 50px auto;
+}
+#search {
+    
+    border-radius: 30px;
+}
+#btnsearch {
+    border-radius: 30px;
+}
+.paragraph {
+    width: 90%;
+}

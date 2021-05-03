@@ -9,7 +9,7 @@
 .navbar {
     display: flex;
     height: 50px;
-    background-color: rgb(216, 250, 136);
+    /* background-color: rgb(216, 250, 136); */
 }
 .navleft {
     width: 50%;
@@ -101,6 +101,43 @@
 }
 .backgraund {
     /* background: url('../img/pho.svg') no-repeat center; */
-    background: url('../img/pho.svg') no-repeat center ;
+    /* background: url('../img/pho.svg') no-repeat center center/cover; */
+    background-color: #e5e1e8;
+}
+
+#nextcontent {
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgba(206, 238, 206, 0.568);
+    height: auto;
+    padding-top: 30px;
+}
+.commoncont {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    /* position: absolute; */
 
 }
+
+.imga img{
+    height: 150px;
+    margin: auto 20px;
+}
+.paragraph {
+    width: 60%;
+    margin: auto;
+}
+
+/*                     Footer part of the webpage  */
+footer {
+    background-color: rgba(158, 73, 73, 0.719);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot {
+    text-align: center;
+}
+
