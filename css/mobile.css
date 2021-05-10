@@ -4,14 +4,14 @@
 }
 .navleft {
     width: 100%;
-    background-color: green;
+    background-color: rgba(206, 238, 206, 0.568);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .navright {
     width: 100%;
-    background-color: yellow;
+    background-color: rgba(206, 238, 206, 0.568);
     text-align: center;
 }
 .backgraund {
@@ -26,4 +26,10 @@
 }
 .paragraph {
     width: 90%;
+}
+
+
+/* service style  */
+.ima img {
+    height: 120px;
 }

@@ -9,7 +9,7 @@
 .navbar {
     display: flex;
     height: 50px;
-    /* background-color: rgb(216, 250, 136); */
+    background-color: rgb(216, 250, 136);
 }
 .navleft {
     width: 50%;
@@ -25,9 +25,9 @@
     display: flex;
     list-style: none;
 }
-.navlist li {
-    /* text-decoration: none; */
-}
+/* .navlist li {
+    text-decoration: none;
+} */
 .navlist li a {
     text-decoration: none;
     margin: auto 20px;
@@ -141,3 +141,73 @@ footer {
     text-align: center;
 }
 
+
+/*                                   Service style */
+
+.container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 1rem;
+    justify-content: center;
+    
+}
+.box {
+    border: 3px solid rgb(176, 212, 108);
+    border-radius: 10px;
+    padding: 10px;
+}
+.box:hover {
+    border: 5px solid greenyellow rgb(176, 212, 108);
+    background-color: rgb(222, 238, 192);
+}
+.ima img {
+    height: 150px;
+    margin: 20px;
+}
+
+/*                                    Contact style  */
+
+form {
+    
+    width: 60%;
+    margin: 20px auto;
+}
+
+.contactclass {
+    /* display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 20px auto;
+    flex-direction: row-reverse; */
+    display: flex;
+    flex-direction: column;
+}
+
+.fot {
+    margin-top: 200px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#index {
+    height: 40px;
+    width: 80%;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    padding: 4px;
+    color: rgb(98, 141, 12);
+    font-size: 20px;
+}
+
+.btn {
+    height: 40px;
+    width: 50%;
+    border: 2px solid rgb(35, 187, 21);
+    border-radius: 30px;
+    background-color: greenyellow;
+    margin: auto;
+}

@@ -10,6 +10,7 @@
 .navlist {
     display: flex;
     flex-direction: column;
+    margin-top: revert;
 }
 .navright {
     display: flex;
@@ -22,7 +23,7 @@
     margin: 3.5px auto;
 }
 .maincontent {
-    margin-top: 200px;
+    margin-top: 220px;
     flex-direction: column;
 }
 .logoimg {
@@ -44,6 +45,7 @@
 }
 
 
+
 .burgar {
     position: absolute;
     left: 5px;
@@ -62,6 +64,20 @@
     display: none;
 }
 .h-maincontent-resp {
-    margin-top: 100px;
-    transition: all ease-in-out 0.6s;
+    /* margin-top: 150px; */
+    margin-top: 80px;
+    transition: all cubic-bezier(.45,.05,.55,.95) 0.6s;
+}
+
+
+/* service style */
+.container {
+    display: grid;
+    grid-template-columns: 85%;
+}
+
+
+/* Contact Style  */
+.contactclass {
+    width: 95%;
 }

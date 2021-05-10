@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="Screen and (max-width: 1210px)" href="css/mobile.css">
+    <link rel="stylesheet" media="Screen and (max-width: 870px)" href="css/contactphone.css">
+    <link rel="stylesheet" media="Screen and (max-width: 615px)" href="css/micromobile.css">
+    <link rel="shortcut icon" href="../AmazingWebsites/Responsive website/favicon.ico" type="image/x-icon">
+    <title>Imarketing</title>
+</head>
+<body>
+<!--             It is the header part of the website -->
+    <header>
+        <nav class="navbar">
+            <div class="navleft">
+                <h1 class="headname"><a href="/">Marketing</a></h1>
+                <div class="burgar">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="navlist visible-resp">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Service.html">Service</a></li>
+                    <li><a href="/contactus.html">ContactUs</a></li>
+                </ul>
+            </div>
+            <div class="navright">
+                <button id="btnsearch" type="button">search</button>
+                <input type="search" name="search" id="search">
+            </div>
+        </nav>
+    </header>
+
+<!--            It is the main or the body part of the website -->
+    <main>
+        <form action="/contactus" method="POST" class="contactclass h-maincontent-resp">
+            <input type="text" name="name" placeholder="Enter your name" id="index">
+            <input type="email" name="email" placeholder="Enter your email" id="index">
+            <input type="text" name="number" placeholder="Enter your number" id="index">
+            <input type="text" name="address" placeholder="Enter your address" id="index">
+            <textarea name="problem" id="index" cols="30" rows="10" placeholder="Enter your Problem"></textarea>
+
+            <button type="submit" class="btn">Post</button>
+        </form>
+    </main>
+
+<!--             It is the footer part of the website -->
+    <footer class="fot">
+        <h3 class="foot">CopyRight &copy; | All rights reserved</h3>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
